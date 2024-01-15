@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feudal System Visualization</title>
+    <style>
+       body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.feudal-pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.level {
+    display: flex;
+}
+
+.kingdom {
+    width: 80px;
+    height: 80px;
+    background-color: #8b4513; /* Brown color for simplicity */
+}
+
+.lord {
+    width: 60px;
+    height: 60px;
+    background-color: #8b4513; /* Brown color for simplicity */
+    margin: 0 10px;
+}
+
+.vassal {
+    width: 40px;
+    height: 40px;
+    background-color: #8b4513; /* Brown color for simplicity */
+    margin: 0 5px;
+}
+
+.serf {
+    width: 20px;
+    height: 20px;
+    background-color: #8b4513; /* Brown color for simplicity */
+    margin: 0 2px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="feudal-pyramid">
+        <div class="level">
+            <div class="kingdom"></div>
+        </div>
+        <div class="level">
+            <div class="lord"></div>
+            <div class="lord"></div>
+        </div>
+        <div class="level">
+            <div class="vassal"></div>
+            <div class="vassal"></div>
+            <div class="vassal"></div>
+        </div>
+        <div class="level">
+            <div class="serf"></div>
+            <div class="serf"></div>
+            <div class="serf"></div>
+            <div class="serf"></div>
+        </div>
+    </div>
+</body>
+</html>

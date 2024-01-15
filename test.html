@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper with Hover Effect</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slide_two.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="stripes">
+                    <div id="one" class="hover-element">
+                        <span class="title"><b>Zünfte und Gilden</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="two" class="hover-element">
+                        <span class="title short"><b>Lebenswelt</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="three" class="hover-element">
+                        <span class="title"><b>Die Entwicklung und Entstehung der Stadt</b>></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="four" class="hover-element">
+                        <span class="title short"><b>"Stadtluft macht Frei"</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="five" class="hover-element">
+                        <span class="title short"><b>Handel und Markplätze</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="six"  class="hover-element">
+                        <span class="title short"><b>Verkehr und Transport</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="seven" class="hover-element">
+                        <span class="title short"><b>Stadtbefestigung</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div id="eight" class="hover-element">
+                        <span class="title short"><b>Krisen und Herausforderungen</b></span>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="swiper-container vertical-slider">
+                    <div class="swiper-wrapper">
+                        <!-- Vertical Slide Content -->
+                        <div class="swiper-slide">
+                            <div class="slide_two">
+                                <div class="blur-overlay"></div>
+                                <div class="word-container">
+                                    <div class="word">Was sind Zünfte?</div>
+                                    <ul id="myList" style="display:none;">
+                                        <li>Historische Handwerker- oder Berufsvereinigungen</li>
+                                        <li>Struktur: Lehrlinge, Gesellen, Meister</li>
+                                        <li>Viele Zünfte im 19. Jh. aufgelöst oder reglementiert</li>
+                                    </ul>
+                                    <img id="schuhmacher" style="display:none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Zunftwappen-Schuster.svg/220px-Zunftwappen-Schuster.svg.png" height="250" width="200"></img>
+                                    <h1 id="schuhmacherText" style="display:none;">Schuhmacher</h1>
+                                    <img id="fischer" style="display:none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Zunftwappen-Fischer.svg/479px-Zunftwappen-Fischer.svg.png" height="250" width="200"></img>
+                                    <h1 id="fischerText" style="display:none;">Fischer</h1>
+                                    <img id="metzger" style="display:none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Zunftwappen-Schlachter.svg/479px-Zunftwappen-Schlachter.svg.png" height="250" width="200"></img>
+                                    <h1 id="metzgerText" style="display:none;">Metzger</h1>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+                    
+
+            <!-- Add more slides as needed -->
+
+        </div>
+        <!-- Add Navigation Arrows -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/move.js"></script>
+
+</body>
+</html>

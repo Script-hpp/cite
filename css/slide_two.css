@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+  }
+  html {
+    height: 100%;
+  }
+  .slide_two {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.blur-overlay {
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("https://www.fineartacademycologne.com/wp-content/uploads/2018/08/Rembrandt_van_Rijn-De_Nachtwacht-1642.jpg");
+
+}
+
+.blur-overlay_second {
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("https://www.planet-wissen.de/geschichte/mittelalter/leben_im_mittelalter/intromittelalterottogjpg100~_v-gseapremiumxl.jpg");
+
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 1s ease; /* Add smooth transition */
+}
+
+.word {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+}
+
+.word_second {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.word_third {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.word_fourth {
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.moved {
+    transform: translate(0, -35%); /* Move to center top */
+}
+
+.keywords {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.word-container.show-keywords .keywords {
+    display: block;
+    margin-top: 10px; /* Anpassen Sie den Abstand zwischen dem Text und den Stichwörtern */
+}
+
+.word-container.show-keywords .keywords li {
+    font-weight: bold; /* Optional: Fett gedruckte Stichwörter */
+}
+
+.word-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gildenListe
+{
+    margin: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px #222324;
+    margin-top: 10px; /* Anpassen Sie den Abstand zwischen dem Text und den Stichwörtern */
+
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+li {
+    margin: 10px;
+    color: white;
+    font: 700 normal 1.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+}
+
+h1
+{
+    color: white;
+    text-shadow: 5px 5px 5px #222324;
+
+}
+
+#quiz label {
+    display: block;
+    margin: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px #222324;
+    margin-top: 10px; /* Anpassen Sie den Abstand zwischen dem Text und den Stichwörtern */ 
+  }
+
+.center-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height based on your layout */
+}
+
+  .bubbly-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 44px;
+    padding: 10px;
+    text-align: center;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #0cda5b;
+    border-radius: 55%;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(3, 163, 75, 0.5);
+  }
+  .bubbly-button:focus {
+    outline: 0;
+  }
+  .bubbly-button:before, .bubbly-button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -25%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  .bubbly-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, transparent 20%, #0cda5b 20%, transparent 30%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, transparent 10%, #0cda5b 15%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }
+  .bubbly-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, transparent 10%, #0cda5b 15%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%), radial-gradient(circle, #0cda5b 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  }
+  .bubbly-button:active {
+    transform: scale(0.9);
+    background-color: #01cc66;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+  }
+  .bubbly-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+  }
+  .bubbly-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+  }
+  
+  @keyframes topBubbles {
+    0% {
+      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  @keyframes bottomBubbles {
+    0% {
+      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+    50% {
+      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+
+#maler
+{
+    transform: translate(0, -110%); /* Move to center top */
+}
+
+#quiztwo
+{
+    margin: 5px;
+}
+
+#feudal
+{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+#konigText
+{
+    color: white;
+    font: 700 normal 0.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 13%;
+    left: 68%;
+    transform: translateX(-50%);
+    color: rgb(184, 172, 11);
+}
+
+#konigText_zwei
+{
+    color: white;
+    font: 700 normal 0.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 16%;
+    right: 55%;
+    transform: translateX(-50%);
+    color: rgb(184, 172, 11);
+}
+
+#kronText
+{
+    color: white;
+    font: 700 normal 0.5em 'tahoma';
+    text-shadow: 5px 5px 5px #222324;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translateX(-50%);
+    color: rgb(12, 109, 236);
+}
+
+
+
+
+#pfeil
+{
+    position: absolute;
+    top: 25%;
+    right: 65%;
+    width: 15%;
+    color: rgb(184, 172, 11);
+}
+
+#pfeil_zwei
+{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 15%;
+    color: rgb(184, 172, 11);
+    rotate: 180deg;
+}
+
+
+#carlo
+{
+    padding-top: 25px;
+    width: 50%;
+    border-radius: 30%;
+}
+
+.hover-switch > img {
+    position: absolute;
+    top: calc(80% + 30px);
+    left: calc(25% - 80px);
+    width: 400px;
+    height: 650px;
+    
+  }
+  /* 
+   * Show the last image by default
+  */
+  .hover-switch > img:last-of-type {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  }
+  /* 
+   * Hide the last image on hover
+  */
+  .hover-switch:hover > img:last-of-type {
+    opacity: 0;
+  }
+
+#image-container:hover #default-image {
+    opacity: 0;
+}
+
+#image-container:hover #hover-image {
+    opacity: 1;
+}
