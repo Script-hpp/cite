@@ -322,17 +322,12 @@ h1
 }
 
 
-#carlo
-{
-    padding-top: 25px;
-    width: 50%;
-    border-radius: 30%;
-}
+
 
 .hover-switch > img {
     position: absolute;
     top: calc(80% + 30px);
-    left: calc(25% - 80px);
+    left: calc(28% - 100px);
     width: 400px;
     height: 650px;
     
