@@ -18,54 +18,54 @@ body {
 .blur-overlay {
     width: 100%;
     height: 100%;
-    filter: blur(2px);
+    filter: blur(5px);
     background-size: cover;
     background-position: center;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url("https://www.fineartacademycologne.com/wp-content/uploads/2018/08/Rembrandt_van_Rijn-De_Nachtwacht-1642.jpg");
+    background-image: url("https://www.pixblick.de/images/product_images/original_images/fototapete_mittelalter_burg-2-.jpg");
 
 }
 
 .blur-overlay_second {
     width: 100%;
     height: 100%;
-    filter: blur(2px);
+    filter: blur(5px);
     background-size: cover;
     background-position: center;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url("https://www.planet-wissen.de/geschichte/mittelalter/leben_im_mittelalter/intromittelalterottogjpg100~_v-gseapremiumxl.jpg");
+    background-image: url("https://www.pixblick.de/images/product_images/original_images/fototapete_mittelalter_burg-2-.jpg");
 }
 
 .blur-overlay_three {
   width: 100%;
   height: 100%;
-  filter: blur(2px);
+  filter: blur(5px);
   background-size: cover;
   background-position: center;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url("https://www.br.de/radio/bayern2/sendungen/radiowissen/soziale-politische-bildung/stadtgeschichte-mittelalterstadt-100~_v-img__16__9__m_-4423061158a17f4152aef84861ed0243214ae6e7.jpg?version=59c14");
+  background-image: url("https://www.pixblick.de/images/product_images/original_images/fototapete_mittelalter_burg-2-.jpg");
 }
 
 .blur-overlay_fourth {
   width: 100%;
   height: 100%;
-  filter: blur(2px);
+  filter: blur(5px);
   background-size: cover;
   background-position: center;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url("https://einstimdunklenmittelalter123.files.wordpress.com/2017/12/cropped-sdgdfdg.png");
+  background-image: url("https://www.pixblick.de/images/product_images/original_images/fototapete_mittelalter_burg-2-.jpg");
 }
 .word-container {
     display: flex;
@@ -91,9 +91,11 @@ body {
     font: 700 normal 2.5em 'tahoma';
     text-shadow: 5px 5px 5px #222324;
     position: absolute;
+    width: 1200px;
     top: 35%;
     left: 50%;
     transform: translateX(-50%);
+    text-align: justify;
 }
 
 .word_third {
@@ -111,10 +113,27 @@ body {
     font: 700 normal 2.5em 'tahoma';
     text-shadow: 5px 5px 5px #222324;
     position: absolute;
-    top: 15%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
 }
+
+#knight
+{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#result
+{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
 
 .word_fifth {
   color: white;
@@ -176,6 +195,7 @@ li {
     color: white;
     font: 700 normal 1.5em 'tahoma';
     text-shadow: 5px 5px 5px #222324;
+    text-align: justify;
 }
 
 h1
@@ -297,9 +317,10 @@ h1
 
 #feudal
 {
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  transform: translate(0, -5%); /* Move to center top */
+
+
 }
 
 #konigText
@@ -340,12 +361,14 @@ h1
 
 #carloText
 {
-    color: white;
-    font: 700 normal 0.7em 'tahoma';
-    text-shadow: 5px 5px 5px #222324;
-    position: relative;
-    top: 70%;
-    right: 1%;
+  color: white;
+  font: 700 normal 0.7em 'tahoma';
+  text-shadow: 5px 5px 5px #222324;
+  position: absolute;
+  width: 700px;
+  bottom: -770px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #myList2 {

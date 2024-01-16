@@ -41,7 +41,10 @@ var animateButton = function(e) {
         resultElement.textContent = isCorrect ? 'Richtig!' : 'Falsch!';
       } else {
         // No answer selected
-        resultElement.textContent = 'Bitte wähle eine Antwort aus.';
+        resultElement.style.fontSize = "30px"
+        resultElement.style.color = "red";
+        resultElement.textContent = 'Keine Auswahl';
+
       }
 
       // Optionally, you can add more logic here, like showing/hiding elements, etc.

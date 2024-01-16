@@ -14,12 +14,20 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/slide_two.css" />
+    <link rel="stylesheet" href="css/splash.css" />
+
+    
     <!-- Demo styles -->
   </head>
 
   <body>
-    <!-- Swiper -->
+    <div class="splash">
+      <img src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="428" height="583">
+      <h1>Wilkommen in die Stadt im Mittelalter</h1>
+      <i>Heinrich-Kleyer-Schule</i>
 
+    </div>
+    <!-- Swiper -->
     <div class="swiper mySwiper swiper-h">
       <div class="swiper-wrapper">
         <!--- SLIDE 1-->
@@ -100,6 +108,7 @@
                           <label><input type="radio" name="answer" value="Berlin"> Maler</label>
                           <label><input type="radio" name="answer" value="Rome"> Fischer</label>
                           <label><input type="radio" name="answer" value="Madrid"> Optiker</label>
+                          <img id="knight" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
                           <button class="bubbly-button">Überprüfen</button>
                           <p id="result"></p>
                         </div>
@@ -121,13 +130,9 @@
                 <div class ="slide_two">  
                   <div class="blur-overlay_second"></div>
                     <div class="word-container">
-                      <div class="word_third">Das Feudalsystem im Mittelalter
-                        <img id="feudal" src="img/lehnspyramide__1_-removebg-preview-transformed.png"></img>
-                        <h1 id="konigText" style="display:none;">verleiht Grundbesitzt und Ämter</h1>
-                        <h1 id="konigText_zwei" style="display:none;">Rat und Hilfe</h1>
-                        <img id="pfeil" style="display:none;" src="img/360_F_402127178_y0PtiphWoruSCISs3FajkfBFDVyKWLbL-removebg-preview.png"></img>
-                        <img id="pfeil_zwei" style="display:none;" src="img/360_F_402127178_y0PtiphWoruSCISs3FajkfBFDVyKWLbL-removebg-preview.png"></img>
-                        <h1 id="kronText" style="display:none;">Amts- und Kriegdienst</h1>
+                      <div class="word_fourth">Das Feudalsystem im Mittelalter
+                        <img id="feudal" src="img/WP_Ständegesellschaft_1-1024x576-removebg-preview.png" width="900" height="575"></img>
+
                       </div>
                     </div>
                   </div>
@@ -144,8 +149,7 @@
                                 <img src="https://cdn.discordapp.com/attachments/1081300107921723394/1196577659174531192/Img_2024_01_15_22_58_35.jpg?ex=65b822c9&is=65a5adc9&hm=f70786c9ba33897b9cdd4f97faf7f0caab0fc1fad813e9e8aa80e3c6b9d159bb&" />
                                 <img src="https://m.media-amazon.com/images/I/71DIVSm67yL.jpg" />
                               </a>
-                              <h1 id="carloText">Carlo Crivelli - Marias Verkündigung</h1>
-
+                              <h1 id="carloText">Carlo Crivelli - Marias Verkündigung - <i>National Gallery in London</i></h1>
                             </div>
                           </div>
                         </div>
@@ -166,13 +170,13 @@
               <div class ="slide_two">  
                 <div class="blur-overlay_three"></div>
                   <div class="word-container">
-                    <div class="word_fifth">"Die Entstehung der Stadt"
+                    <div class="word_fourth">Die Entstehung der Stadt
                         <ul id="myList2">
+                          <img id="cologne" src="https://img.welt.de/img/geschichte/mobile153603726/9662500567-ci102l-w1024/Koeln-Stadtansicht-Schedelsche-Weltchro.jpg" width="600" height="300">
                           <li>Ansammlungen von Menschen an einem Ort (Flüsse oder ehemaligen Städten des Römischen Reiches)</li>
                           <li>Von Königen oder Landesherren gezielt gebaut und regiert</li>
                           <li>Im Laufe der Jahre könnten die Zünfte die Herrschaft übernehmen</li>
                           <li>Die größte Stadt: Köln mit 10 Tausend Mitbewohner</li>
-                          <img id="cologne" src="https://img.welt.de/img/geschichte/mobile153603726/9662500567-ci102l-w1024/Koeln-Stadtansicht-Schedelsche-Weltchro.jpg" width="600" height="300">
                       </ul>
                       </div>
                   </div>
@@ -185,16 +189,15 @@
                     <div class ="slide_two">
                       <div class="blur-overlay_three"></div>
                         <div class="word-container">
-                          <div class="word_fifth">"Die Entwicklung der Stadt"
+                          <div class="word_fourth">Die Entwicklung der Stadt
                           <ul id="myList2">
+                            <img src="img/Dreifelderwirtschaft-removebg-preview.png" width="600" height="350">
+                            <li>Landwirtschaft: neue Techniken, so wie Dreifelderwirtschaft</li>
                             <li>Bevölkerungszunahme: Mehr Austausch von Gütern
                               , Weniger Kriegen und Krankheiten </li>
                               <li>Priviligen, so wie zur Selbstverwaltung, Steuerbefreiungen und Stadtrecht</li>
                             <li>Universitäten und Bildung: Unterricht in Klöster und Kathedralen</li>
-                            <li>Landwirtschaft: neue Techniken, so wie Dreifelderwirtschaft</li>
-  
-                            <img src="img/Dreifelderwirtschaft-removebg-preview.png" width="600" height="350">
-                        </ul>
+                          </ul>
                           </div>
   
                           </div>
@@ -215,8 +218,9 @@
             <div class ="slide_two">  
               <div class="blur-overlay_fourth"></div>
                 <div class="word-container">
-                  <div class="word_fifth">"Stadtluft macht frei"
+                  <div class="word_fourth">"Stadtluft macht frei"
                       <ul id="myList2">
+                        <img id="cologne" src="https://wol.jw.org/de/wol/mp/r10/lp-x/w15/2015/1835" width="600" height="300">
                         <li>Unfreie Bauern (Leibeigenen) innerhalb eines Jahres nicht gefunden werden, dann sind sie frei </li>
                         <li>Verleihung von speziellen Rechten an Stadtbewohner durch Herrscher oder Stadtführer.</li>
                         <li>Wirtschaftliche Interesse</li>
@@ -232,6 +236,55 @@
       </div>
     </div>        
   </div>
+  <div class="swiper-slide">
+    <div class="swiper mySwiper3 swiper-v">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class ="slide_two">  
+            <div class="blur-overlay_three"></div>
+              <div class="word-container">
+                <div class="word_fourth">Markt und Handel
+                    <ul id="myList2">
+                      <img id="cologne" src="https://www.planet-schule.de/schwerpunkt/die-stadt-im-spaeten-mittelalter/1670501016498,die-stadt-im-spaeten-mittelalter-handel-handwerk-marktgeschehen-unterricht-102~_v-Detail@2dS@2dquer_-af4684e1b2216e3b34738de96ffc07167162e545.jpg" width="600" height="350">
+                      <li>Märkte Davor: Schnittpunkt von Handelsstraßen Märkte Jetzt: zentralen Ort innerhalb der Stadt  </li>
+                      <li>Erlaubnis für das Verkaufen der Ware?</li>
+                      <li>Handel und Kommunikation in einem gleichen Ort</li>
+                      <li>Eigene Rechtsordnung "Marktfrieden"</li>
+
+                  </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+    <div class="swiper-slide">
+          <div class="swiper mySwiper3 swiper-v">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class ="slide_two">
+                  <div class="blur-overlay_three"></div>
+                    <div class="word-container">
+                      <div class="word_fourth">Jahrmarkt
+                      <ul id="myList2">
+                      
+                        <img id="cologne" src="https://freiburgermess.freiburg.de/fileadmin/_processed_/4/c/csm_Geschichte_594x400px_1_Element_f4dd6123ff.jpg" width="600" height="350">
+                        <li>Nur einmal im Jahr</li>
+                        <li>Erweitet  es Produktangebot und günstigere Rechtbestimmungen</li>
+                        <li>Viele Nachfrage, ausreichende Angebot?</li>
+                        <li>Meistens mit christliche Feste verbunden</li>
+                    </ul>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+      </div>
+      
+        
+      </div>
+   </div>
+    </div>
+  </div>        
       <div class="swiper-pagination"></div>
     </div>
   </div>
@@ -270,6 +323,8 @@
     <script src="js/move.js"></script>
     <script src="js/button.js"></script>
     <script src="js/pyramide.js"></script>
+    <script src="js/splash.js"></script>
+
 
   </body>
   
