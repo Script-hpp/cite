@@ -98,6 +98,18 @@ body {
     text-align: justify;
 }
 
+.word_second_x {
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 5px 5px #222324;
+  position: absolute;
+  width: 1200px;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: justify;
+}
+
 .word_third {
     color: white;
     font: 700 normal 2.5em 'tahoma';
@@ -118,6 +130,18 @@ body {
     transform: translateX(-50%);
 }
 
+.word_fourth_x
+{
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 5px 5px #222324;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+}
+
 #knight
 {
   position: absolute;
@@ -126,10 +150,26 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#knight1
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #result
 {
   position: absolute;
   top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#result1
+{
+  position: absolute;
+  top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
@@ -213,6 +253,17 @@ h1
     font-size: 35px;
     text-shadow: 5px 5px 5px #222324;
     margin-top: 10px; /* Anpassen Sie den Abstand zwischen dem Text und den Stichwörtern */ 
+  }
+
+  #quiz1 label {
+    display: block;
+    margin: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px #222324;
+    margin-top: 10px; /* Anpassen Sie den Abstand zwischen dem Text und den Stichwörtern */ 
+    top: 35px;
   }
 
 .center-button-container {
@@ -318,7 +369,9 @@ h1
 #feudal
 {
   position: relative;
+  text-align: center;
   transform: translate(0, -5%); /* Move to center top */
+  right: 250px;
 
 
 }
