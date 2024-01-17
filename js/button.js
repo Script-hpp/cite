@@ -17,7 +17,7 @@ var animateButton = function(e) {
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    const bubblyButton = document.querySelector('.bubbly-button');
+    const bubblyButton = document.getElementById('zunftbutton');
     const resultElement = document.getElementById('result');
 
     bubblyButton.addEventListener('click', function() {

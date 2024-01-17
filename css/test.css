@@ -158,38 +158,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
-#knight2
-{
-  position: absolute;
-  top: 350px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#knight3
-{
-  position: absolute;
-  top: 80%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-}
-
-#knight4
-{
-  position: absolute;
-  top: 70%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-}
-
-#knight5
-{
-  position: absolute;
-  top: 80%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-}
 #result
 {
   position: absolute;
@@ -198,38 +166,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#result2
+#result1
 {
   position: absolute;
-  top: 52%;
+  top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
 
-
-#result3
-{
-  position: absolute;
-  top: 22%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#result4
-{
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#result5
-{
-  position: absolute;
-  top: 30%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-}
 
 .word_fifth {
   color: white;

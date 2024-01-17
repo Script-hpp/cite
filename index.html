@@ -119,6 +119,24 @@
           
             
           </div>
+
+          <div class="swiper-slide">
+            <div class ="slide_two">
+              <div class="blur-overlay"></div>
+                <div id="quiztwo" class="word-container">
+                  <div class="word_second_x">Welche Privilegien erhielten Stadtbewohner?
+                    <div id="quiz1">
+                      <label><input type="radio" name="answer2" value="A"> Steuerpflicht</label>
+                      <label><input type="radio" name="answer2" value="B"> Selbstverwaltung, Steuerbefreiungen und Stadtrecht</label>
+                      <label><input type="radio" name="answer2" value="C"> Leibeigenschaft</label>
+                      <img id="knight2" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                      <button class="bubbly-button" onclick="checkAnswer1()">Überprüfen</button>
+                      <p id="result2"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div> 
        </div>
         </div>
       </div>        
@@ -184,7 +202,7 @@
                         <label><input type="radio" name="answer" value="Rome"> Fischer</label>
                         <label><input type="radio" name="answer" value="Madrid"> Optiker</label>
                         <img id="knight" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
-                        <button class="bubbly-button">Überprüfen</button>
+                        <button id="zunftbutton" class="bubbly-button">Überprüfen</button>
                         <p id="result"></p>
                       </div>
                     </div>
@@ -223,21 +241,68 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class ="slide_two">  
-                <div class="blur-overlay_second"></div>
+                <div class="blur-overlay_three"></div>
                   <div class="word-container">
-                    <div class="word_fourth_x">Lebenswelt
-                      Feudal System
-                      
+                    <div class="word_fourth">Lebenswelt
+                        <ul id="myList2">
+                          <img id="cologne" src="https://segu-geschichte.de/wp-content/uploads/2015/05/Lebenswelt-Mittelalter-1.jpg" width="600" height="350">
+                          <li>Soziale Hierarchie in Städten</li>
+                          <li>Herausforderungen für Tagelöhner:</li>
+                          <li>Sozial geächtete Gruppen</li>
+                          <li>Hygienische Bedingungen und Krankheiten</li>
+                          <li>Brandgefahr und Stadtbauweise</li>
 
-                      <img id="feudal" src="img/WP_Ständegesellschaft_1-1024x576-removebg-preview.png" width="900" height="575"></img>
-                    </div>
+                      </ul>
+                      </div>
                   </div>
                 </div>
             </div>
-        
+        <div class="swiper-slide">
+              <div class="swiper mySwiper3 swiper-v">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class ="slide_two">
+                      <div class="blur-overlay_three"></div>
+                        <div class="word-container">
+                          <div class="word_fourth">Das Feudalsystem
+                          <ul id="myList2">
+                            <img id="feudal" src="img/WP_Ständegesellschaft_1-1024x576-removebg-preview.png" width="900" height="575"></img>
+                        </ul>
+                          </div>
+    
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+          </div>
+          
+            
+          </div>
+    
+          <div class="swiper-slide">
+            <div class ="slide_two">
+              <div class="blur-overlay"></div>
+                <div id="quiztwo" class="word-container">
+                  <div class="word_second_x">Wer hatte die meisten Rechte im Feudalsystem?
+                    <div id="quiz1">
+                      <label><input type="radio" name="answer3" value="A">Könige und Königinnen</label>
+                      <label><input type="radio" name="answer3" value="B">Adelige und Grundherren</label>
+                      <label><input type="radio" name="answer3" value="C">Bauern und Arbeiter</label>
+                      <img id="knight3" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                      <button class="bubbly-button" onclick="checkAnswer2()">Überprüfen</button>
+                      <p id="result3"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+          
+    
+          
+       </div>
         </div>
-      </div>        
-    </div>
+      </div>    
 
     <div class="swiper-slide">
       <div class="swiper mySwiper3 swiper-v">
@@ -261,8 +326,28 @@
                 </div>
               </div>
           </div>
+          <div class="swiper-slide">
+            <div class ="slide_two">
+              <div class="blur-overlay"></div>
+                <div id="quiztwo" class="word-container">
+                  <div class="word_second_x">Welche Gruppen von Menschen profitierten am meisten von der Entwicklung der Stadt im Mittelalter?
+                    <div id="quiz1">
+                      <label><input type="radio" name="answer4" value="A"> Adlige und Könige</label>
+                      <label><input type="radio" name="answer4" value="B"> Bauern und Landarbeiter</label>
+                      <label><input type="radio" name="answer4" value="C"> Handwerker und Kaufleute</label>
+                      <img id="knight4" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                      <button class="bubbly-button" onclick="checkAnswer3()">Überprüfen</button>
+                      <p id="result4"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
       </div>
-    </div>        
+    </div>     
+    
+    
   </div>
   <div class="swiper-slide">
     <div class="swiper mySwiper3 swiper-v">
@@ -315,7 +400,7 @@
         <div class ="slide_two">
           <div class="blur-overlay"></div>
             <div id="quiztwo" class="word-container">
-              <div class="word_second_x">Wer organisierte und überwachte die Jahrmarktaktivitäten im Mittelalter? ?
+              <div class="word_second_x">Wer organisierte und überwachte die Jahrmarktaktivitäten im Mittelalter?
                 <div id="quiz1">
                   <label><input type="radio" name="answer1" value="A"> Die örtliche Kirche</label>
                   <label><input type="radio" name="answer1" value="B"> Die Königsfamilie</label>
@@ -330,9 +415,149 @@
       </div>
 
       
+
+      
+   </div>
+    </div>
+  </div>    
+  
+  <div class="swiper-slide">
+    <div class="swiper mySwiper3 swiper-v">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class ="slide_two">  
+            <div class="blur-overlay_three"></div>
+              <div class="word-container">
+                <div class="word_fourth">VERKEHR UND TRANSPORT
+                    <ul id="myList2">
+                      <img id="cologne" src="https://i.pinimg.com/originals/e8/a8/5c/e8a85c6f481f7593b5eb5283b6f25126.jpg" width="720" height="480">
+                      <li>Menschen, Kaufleuten und Herrschern</li>
+                      <li>Die Zahl der Reisenden nahm zu</li>
+                      <li>Motiven: Wirtschaftlich, Religion, Bildung und Flucht</li>
+                      <li>Meiste Menschen waren zu Fuß unterwegs</li>
+                      <li>Schnellste Weg: Schiffe und Flöße</li>
+
+                  </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+      <div class="swiper-slide">
+        <div class ="slide_two">
+          <div class="blur-overlay"></div>
+            <div id="quiztwo" class="word-container">
+              <div class="word_second_x">Was war im Mittelalter das vorherrschende Transportmittel für Waren und Personen?
+                <div id="quiz1">
+                  <label><input type="radio" name="answer5" value="A"> Pferdewagen</label>
+                  <label><input type="radio" name="answer5" value="B"> Schiffe</label>
+                  <label><input type="radio" name="answer5" value="C"> Fahrräder</label>
+                  <img id="knight5" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                  <button class="bubbly-button" onclick="checkAnswer4()">Überprüfen</button>
+                  <p id="result5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+
+      
    </div>
     </div>
   </div>        
+
+  <div class="swiper-slide">
+    <div class="swiper mySwiper3 swiper-v">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class ="slide_two">  
+            <div class="blur-overlay_three"></div>
+              <div class="word-container">
+                <div class="word_fourth">STADTBEFESTIGUNG
+                    <ul id="myList2">
+                      <img id="cologne" src="https://stadtarchiv.heilbronn.de/fileadmin/daten/stadtarchiv/bilder/stadtgeschichte/a-z/p-t/stadtmauer-braun-hogenberg-1617.jpg" width="720" height="480">
+                      <li>Die Burgen waren der Verwaltungssitz, das Vorratslager und das Gericht.</li>
+                      <li>Streng organisiert (z.B Palas, Erdgeschoss, Obergeschoss)</li>
+                      <li>Mit großen Mauern umrandet, Wachtürme gebaut </li>
+                      <li>Wassergräbern</li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+      <div class="swiper-slide">
+        <div class ="slide_two">
+          <div class="blur-overlay"></div>
+            <div id="quiztwo" class="word-container">
+              <div class="word_second_x">Wer organisierte und überwachte die Jahrmarktaktivitäten im Mittelalter?
+                <div id="quiz1">
+                  <label><input type="radio" name="answer1" value="A"> Die örtliche Kirche</label>
+                  <label><input type="radio" name="answer1" value="B"> Die Königsfamilie</label>
+                  <label><input type="radio" name="answer1" value="C"> Die Handwerkszünfte</label>
+                  <img id="knight1" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                  <button class="bubbly-button" onclick="checkAnswer()">Überprüfen</button>
+                  <p id="result1"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+
+      
+   </div>
+    </div>
+  </div>        
+
+  <div class="swiper-slide">
+    <div class="swiper mySwiper3 swiper-v">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class ="slide_two">  
+            <div class="blur-overlay_three"></div>
+              <div class="word-container">
+                <div class="word_fourth">KRISEN UND HERAUSFORDERUNGEN
+                    <ul id="myList2">
+                      <img id="cologne" src="https://static.nationalgeographic.de/files/styles/image_3200/public/thetriumphofdeathbypieterbruegeltheelder.jpg?w=1600" width="720" height="480">
+                      <li>Hungersnot von 1315-1317 (klimatische Bedingungen) </li>
+                      <li>Pest Krankheit</li>
+                      <li>Kriege und Konflikte</li>
+                      <li>Feudalismus</li>
+                  </ul>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+      <div class="swiper-slide">
+        <div class ="slide_two">
+          <div class="blur-overlay"></div>
+            <div id="quiztwo" class="word-container">
+              <div class="word_second_x">Wer organisierte und überwachte die Jahrmarktaktivitäten im Mittelalter?
+                <div id="quiz1">
+                  <label><input type="radio" name="answer1" value="A"> Die örtliche Kirche</label>
+                  <label><input type="radio" name="answer1" value="B"> Die Königsfamilie</label>
+                  <label><input type="radio" name="answer1" value="C"> Die Handwerkszünfte</label>
+                  <img id="knight1" src="img/medieval-knight-with-shield-and-sword-figurine-removebg-preview.png" width="250" height="350">
+                  <button class="bubbly-button" onclick="checkAnswer()">Überprüfen</button>
+                  <p id="result1"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+
+      
+   </div>
+    </div>
+  </div>        
+
 
     </div>
   </div>
@@ -399,6 +624,115 @@
       document.getElementById('result1').innerText = 'Keine Auswahl!';
     }
   }
+
+  function checkAnswer1() {
+    // Get the selected answer
+    var selectedAnswer = document.querySelector('input[name="answer2"]:checked');
+
+    // Check if an answer is selected
+    if (selectedAnswer) {
+      // Get the value of the selected answer
+      var userAnswer = selectedAnswer.value;
+
+      // Check the user's answer and display the result
+      if (userAnswer === 'B') {
+        document.getElementById('result2').style.color = "green";
+        document.getElementById('result2').innerText = 'Richtig!';
+
+      } else {
+        document.getElementById('result2').style.color = "red";
+        document.getElementById('result2').innerText = 'Falsch!';
+
+      }
+    } else {
+      // If no answer is selected
+      document.getElementById('result2').style.fontSize = "30px"
+      document.getElementById('result2').style.color = "red";
+      document.getElementById('result2').innerText = 'Keine Auswahl!';
+    }
+  }
+
+  function checkAnswer2() {
+    // Get the selected answer
+    var selectedAnswer = document.querySelector('input[name="answer3"]:checked');
+
+    // Check if an answer is selected
+    if (selectedAnswer) {
+      // Get the value of the selected answer
+      var userAnswer = selectedAnswer.value;
+
+      // Check the user's answer and display the result
+      if (userAnswer === 'A') {
+        document.getElementById('result3').style.color = "green";
+        document.getElementById('result3').innerText = 'Richtig!';
+
+      } else {
+        document.getElementById('result3').style.color = "red";
+        document.getElementById('result3').innerText = 'Falsch!';
+
+      }
+    } else {
+      // If no answer is selected
+      document.getElementById('result3').style.fontSize = "30px"
+      document.getElementById('result3').style.color = "red";
+      document.getElementById('result3').innerText = 'Keine Auswahl!';
+    }
+  }
+
+  function checkAnswer3() {
+    // Get the selected answer
+    var selectedAnswer = document.querySelector('input[name="answer4"]:checked');
+
+    // Check if an answer is selected
+    if (selectedAnswer) {
+      // Get the value of the selected answer
+      var userAnswer = selectedAnswer.value;
+
+      // Check the user's answer and display the result
+      if (userAnswer === 'C') {
+        document.getElementById('result4').style.color = "green";
+        document.getElementById('result4').innerText = 'Richtig!';
+
+      } else {
+        document.getElementById('result4').style.color = "red";
+        document.getElementById('result4').innerText = 'Falsch!';
+
+      }
+    } else {
+      // If no answer is selected
+      document.getElementById('result4').style.fontSize = "30px"
+      document.getElementById('result4').style.color = "red";
+      document.getElementById('result4').innerText = 'Keine Auswahl!';
+    }
+  }
+
+  function checkAnswer4() {
+    // Get the selected answer
+    var selectedAnswer = document.querySelector('input[name="answer5"]:checked');
+
+    // Check if an answer is selected
+    if (selectedAnswer) {
+      // Get the value of the selected answer
+      var userAnswer = selectedAnswer.value;
+
+      // Check the user's answer and display the result
+      if (userAnswer === 'A') {
+        document.getElementById('result5').style.color = "green";
+        document.getElementById('result5').innerText = 'Richtig!';
+
+      } else {
+        document.getElementById('result5').style.color = "red";
+        document.getElementById('result5').innerText = 'Falsch!';
+
+      }
+    } else {
+      // If no answer is selected
+      document.getElementById('result5').style.fontSize = "30px"
+      document.getElementById('result5').style.color = "red";
+      document.getElementById('result5').innerText = 'Keine Auswahl!';
+    }
+  }
+
   document.querySelector('.bubbly-button').addEventListener('click', checkAnswer);
 </script>
     <script src="js/hover.js"></script>
