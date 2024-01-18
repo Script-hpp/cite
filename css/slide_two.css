@@ -206,6 +206,14 @@ body {
   left: 95%;
   transform: translate(-50%, -50%);
 }
+
+#knight8
+{
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
 #result
 {
   position: absolute;
@@ -260,6 +268,14 @@ body {
   position: absolute;
   top: 15%;
   left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+#result8
+{
+  position: absolute;
+  top: 20%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
